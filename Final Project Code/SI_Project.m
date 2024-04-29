@@ -556,7 +556,7 @@ ylabel('Magnitude (dB)','Fontsize',ii)
 xlabel('Frequency (Hz)','Fontsize',ii)
 legend('Parametric','Welch based','Location','SouthEast','Orientation','vertical')
 
-%% resiuldas from prediction of one model to new data
+%% residuals from prediction of one model to new data
 res=DATA1.outputdata-Yp{order}.outputdata;
 
 figure
